@@ -4,7 +4,7 @@ import "../styles/bloco.css"
 
 function BlocoEntradaSaida({ nome, valor, nome_botao}){
     return(
-        <div class="bloco">
+        <div className="bloco">
             <p>{nome}</p>
             <p>{valor}</p>
             <BotaoBloco nome_botao={nome_botao}/>

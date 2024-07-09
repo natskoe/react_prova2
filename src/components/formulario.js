@@ -38,6 +38,7 @@ function Formulario(){
             <div>
                 <CampoForm
                     legenda="Descrição do lançamento"
+                    tipo={"text"}
                     valor={descricao}
                     onChange={(e) => setDescricao(e.target.value)}
                 />
@@ -45,6 +46,7 @@ function Formulario(){
             <div>
                 <CampoForm
                     legenda="Valor de entrada"
+                    tipo={"number"}
                     valor={entrada}
                     onChange={(e) => setEntrada(e.target.value)}
                  />
@@ -52,6 +54,7 @@ function Formulario(){
             <div>
                  <CampoForm
                     legenda="Valor de saída"
+                    tipo={"number"}
                     valor={saida}
                     onChange={(e) => setSaida(e.target.value)}
                 />

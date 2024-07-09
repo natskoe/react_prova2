@@ -1,11 +1,11 @@
 import "../styles/campo_formulario.css"
 
-function CampoForm( {legenda, valor, tipo, on_change } ){
+function CampoForm( {legenda, valor, tipo, onChange } ){
     return(
         <input 
             placeholder={legenda}
             type= {tipo}
-            on_change={on_change}
+            onChange={onChange}
             value={valor}>
         </input>
     )

@@ -4,7 +4,7 @@ function BotaoBloco({ nome_botao }){
 
     return(
         
-        <a className="botao_bloco" href="/">
+        <a className="botao_bloco" href="/lancamento">
             {nome_botao}
         </a> 
     )

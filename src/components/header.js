@@ -6,8 +6,8 @@ import "../styles/header/header.css"
 function Header(){
     return(
         <header>
-            <div class="grid">
-                <div class="logo">
+            <div className="grid">
+                <div className="logo">
                     <Logo/>
                 </div>
                 <nav>
